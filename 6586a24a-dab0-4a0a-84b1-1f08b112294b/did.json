@@ -1,0 +1,26 @@
+{
+        "@context": [
+            "https://www.w3.org/ns/did/v1"
+        ],
+        "id": "did:web:tobianointing.github.io:vc:6586a24a-dab0-4a0a-84b1-1f08b112294b",
+        "alsoKnownAs": [
+            "testUUID",
+            "test@gmail.com"
+        ],
+        "service": [],
+        "verificationMethod": [
+            {
+                "id": "did:web:tobianointing.github.io:vc:6586a24a-dab0-4a0a-84b1-1f08b112294b#key-0",
+                "type": "Ed25519VerificationKey2020",
+                "@context": "https://w3id.org/security/suites/ed25519-2020/v1",
+                "controller": "did:web:tobianointing.github.io:vc:6586a24a-dab0-4a0a-84b1-1f08b112294b",
+                "publicKeyMultibase": "z6Mkk4yW9F9m4akw1N3aszjb3SXmRJxSva8QvMgnWCNFjQjR"
+            }
+        ],
+        "authentication": [
+            "did:web:tobianointing.github.io:vc:6586a24a-dab0-4a0a-84b1-1f08b112294b#key-0"
+        ],
+        "assertionMethod": [
+            "did:web:tobianointing.github.io:vc:6586a24a-dab0-4a0a-84b1-1f08b112294b#key-0"
+        ]
+    }
